@@ -20,13 +20,13 @@ Once expo-dev-client is installed, and you've set a URI scheme, we need to build
 `$ npm install -g expo-cli `
 
 #### init project 
-`$ npx expo init [KidsMoneyApp]` 
+`$ npx expo init [directory]` 
 
 ## 
 
 ### Start Dev Server
 ```
-$ cd KidsMoneyApp
+$ cd [directory]
 $ npm install
 $ npx expo start 
 ```
