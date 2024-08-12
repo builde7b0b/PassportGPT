@@ -1,0 +1,23 @@
+Good lord people…
+
+Lets end this confusion:
+
+GPTs are consumer-facing toys. They are not an API, nor can they be connected to an API. It also sounds like none of you have logged into platform.openai.com 223 and created an ASSISTANT…not a GPT.
+
+I hate to burst the bubble, but unless you’re adding actions, you’re not making a “Custom GPT.” If you will all remember, you had/have Custom Instructions that get applied to your queries. GPTs are just custom instructions with a new UI and the rolling all the different ChatGPT plus features in one. Lets be clear though, you haven’t created anything more than what ChatGPT can do with the right prompt.
+
+Now if youre adding some OpenAPI specs into your Actions option, then you have actually made a personal improvement to the model…but say it with me:
+GPT’s ARE NOT THE ASSISTANT API. A GPT CANNOT AND WILL NOT CONVERT TO ANYTHING OFF-PLATFORM.
+
+Okay… so… The Assistant API is how we can interface directly with the different GPT models. It is not a simple task. There is an Assistant creation interface, and you can test chatting with it, but again…If you cant code, then you’re going to have a tough time with this, because its not as simple as using chat.Completions.
+
+chat.Completions is stateless, its a one off message. You have to track all your conversations and feed them back to the endpoint every time… Assistant API is stateFUL and you have to manage Threads of Message and Runs.
+
+Please go read the documentation and youll learn a bunch!
+
+source; https://community.openai.com/t/how-to-make-an-api-call-to-a-custom-gpt-model/491835/41
+https://platform.openai.com/docs/assistants/overview
+https://platform.openai.com/playground/chat?models=gpt-4o
+
+
+

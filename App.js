@@ -11,7 +11,7 @@ import Toast from 'react-native-toast-message';  // Import Toast component
 
 
 
-const OPENAI_API_KEY = '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';
+const OPENAI_API_KEY = '';
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState('Home'); // 'Home', 'Quiz', 'End'
