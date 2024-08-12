@@ -11,15 +11,15 @@ The development client needs a unique URI scheme to handle deep links. configure
 ### Build the Development Client: 
 Once expo-dev-client is installed, and you've set a URI scheme, we need to build the dev client for our project. This can be done using EAS Build or by running a local build.
 
-## trigger a cloud build: 
+#### trigger a cloud build: 
 `$ npx expo run:android`
 `$ npx expo run:ios `
 
 
-## Install Expo CLI
+#### Install Expo CLI
 `$ npm install -g expo-cli `
 
-## init project 
+#### init project 
 `$ npx expo init [KidsMoneyApp]` 
 
 ## 
@@ -42,4 +42,27 @@ Read the docs here for more on Expo > https://docs.expo.dev/get-started/create-a
 Use this - Prefix commands with 'npx'
 `$ npx expo start`
 
+
+
+
+## End-to-End Tests with Detox
+For E2E testing, Using Detox.
+
+1. First, install Detox and its CLI:
+`npm install --save-dev detox`
+
+2. Double-Check Config inside of package.json
+package.json
+
+3. Build and Test 
+### For Android:
+```
+detox build --configuration android.emu.debug
+detox test --configuration android.emu.debug
+```
+### For iOS:
+```
+detox build --configuration ios.sim.debug
+detox test --configuration ios.sim.debug
+```
 
