@@ -1,4 +1,6 @@
 # PassportGPT
+![image](assets/8.png)
+
 
 # EXPO SETUP 
 
